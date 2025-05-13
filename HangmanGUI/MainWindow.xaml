@@ -1,0 +1,91 @@
+﻿<Window x:Class="HangmanGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hangman Game" Height="450" Width="600">
+    <Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Hangman ASCII Art -->
+            <TextBlock x:Name="HangmanTextBlock"
+                       Grid.Row="0"
+                       FontFamily="Consolas"
+                       FontSize="18"
+                       Foreground="Black"
+                       Margin="5"/>
+
+            <!-- Word Display -->
+            <TextBlock x:Name="WordDisplay"
+                       Grid.Row="1"
+                       FontFamily="Consolas"
+                       FontSize="30"
+                       Foreground="Black"
+                       HorizontalAlignment="Center"
+                       Margin="5"/>
+
+            <!-- Input and Guess Button in Horizontal Stack -->
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Margin="5">
+                <TextBox x:Name="LetterInput"
+                         Width="50"
+                         FontSize="20"
+                         MaxLength="1"
+                         Margin="5"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"/>
+
+                <Button x:Name="GuessButton"
+                        Content="Guess"
+                        Width="100"
+                        FontSize="20"
+                        Margin="5"
+                        Click="Guess_Click"/>
+            </StackPanel>
+
+            <!-- Guessed Letters -->
+            <TextBlock x:Name="GuessedLetters"
+                       Grid.Row="3"
+                       FontSize="16"
+                       Foreground="Black"
+                       HorizontalAlignment="Center"
+                       Margin="5"/>
+
+            <!-- Attempts Left -->
+            <TextBlock x:Name="AttemptsLeft"
+                       Grid.Row="4"
+                       FontSize="16"
+                       Foreground="Black"
+                       HorizontalAlignment="Center"
+                       Margin="5"/>
+
+            <!-- Restart and Theme Toggle Buttons -->
+            <StackPanel Grid.Row="5"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button x:Name="ToggleThemeButton"
+                        Content="Toggle Theme"
+                        FontSize="16"
+                        Width="120"
+                        Margin="5"
+                        Click="ToggleTheme_Click"/>
+                <Button x:Name="RestartButton"
+                        Content="Restart Game"
+                        FontSize="16"
+                        Width="120"
+                        Margin="5"
+                        Click="RestartGame_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,7 +1,0 @@
-elephant
-computer
-banana
-hangman
-zebra
-baiter
-waiter
