@@ -33,7 +33,3 @@ A simple, interactive Hangman game developed using C# and WPF (Windows Presentat
 
 • If you guess the word correctly or run out of attempts, the game will show a victory or defeat message and restart automatically.
 
-
-**Play Online:**
-
-• You can play the game directly in your browser here:
