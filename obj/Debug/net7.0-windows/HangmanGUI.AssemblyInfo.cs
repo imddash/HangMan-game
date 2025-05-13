@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HangmanGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76aea02fc381a17a4de080c8affd624c1fba6dd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e41ca4ee1a9de8fb06600aebaee8d19e553a9e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("HangmanGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HangmanGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
