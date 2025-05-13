@@ -36,4 +36,4 @@ A simple, interactive Hangman game developed using C# and WPF (Windows Presentat
 
 **Play Online:**
 
-• You can play the game directly in your browser here: https://imddash.github.io/HangMan-game/
+• You can play the game directly in your browser here:
