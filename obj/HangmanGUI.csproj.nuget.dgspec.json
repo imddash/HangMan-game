@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI\\HangmanGUI.csproj": {}
+    "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI\\HangmanGUI.csproj": {
+    "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI\\HangmanGUI.csproj",
+        "projectUniqueName": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI.csproj",
         "projectName": "HangmanGUI",
-        "projectPath": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI\\HangmanGUI.csproj",
+        "projectPath": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\HangmanGUI\\obj\\",
+        "outputPath": "C:\\Users\\Dipan\\CodePlayground\\HangMan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config"
