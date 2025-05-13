@@ -1,4 +1,5 @@
-**# Hangman Game in C#**
+**Hangman Game in C**
+
 A simple, interactive Hangman game developed using C# and WPF (Windows Presentation Foundation). The game features ASCII art for each stage, a dark/light theme toggle, and random word selection from a text file. It's a fun way to test your word-guessing skills!
 
 **Features**:
